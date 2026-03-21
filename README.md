@@ -103,22 +103,7 @@ For every required skill **not** found in the user's résumé, the engine genera
 "JD strictly requires React (Advanced), but it was not found in your Resume."
 ```
 
-This provides full **explainability** — every gap in the final roadmap is directly traceable back to the source documents.
-
----
-
-## 🏆 Hackathon Judging Criteria Fulfillment
-
-| Criteria | How SkillForge Addresses It |
-|---|---|
-| **Technical Sophistication (20%)** | Custom Knowledge Graph (DAG + Reverse-BFS), Serverless Vector DB with Cosine Similarity, Parallel LLM Extraction |
-| **Grounding & Reliability (15%)** | Strict 0.55 cosine similarity firewall — mathematically impossible to hallucinate non-existent training modules |
-| **Reasoning Trace (10%)** | Every gap is cited with explicit logic linking the JD requirement to the Résumé absence |
-| **Product Impact (10%)** | Eliminates redundant training; generates pathways composed exclusively of the "Missing Subgraph" |
-| **User Experience (15%)** | Next.js + Tailwind CSS + Framer Motion; animated glowing Knowledge Graph nodes; Glassmorphism dashboard |
-| **Cross-Domain Scalability (10%)** | Topology scales across Engineering, HR, Cybersecurity, Mobile Dev, Manufacturing, and Finance domains |
-
----
+This provides full **explainability** — every gap in the final roadmap is directly traceable back to the source documents. 
 
 ## 📦 Dependencies
 
