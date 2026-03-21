@@ -6,3 +6,4 @@ PyPDF2==3.0.1
 networkx==3.2.1
 python-multipart==0.0.9
 numpy
+python-dotenv
