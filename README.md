@@ -45,7 +45,7 @@ Our graph topology scales effortlessly. The current engine perfectly routes high
 
 **1. FastAPI Backend Pipeline**
 ```bash
-cd adaptilearn/backend
+cd skillforge/backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -54,7 +54,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 **2. Next.js Client Terminal**
 ```bash
-cd adaptilearn/frontend
+cd skillforge/frontend
 npm install
 npm run dev
 ```
