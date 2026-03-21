@@ -104,7 +104,7 @@ For every required skill **not** found in the user's résumé, the engine genera
 ```
 
 This provides full **explainability** — every gap in the final roadmap is directly traceable back to the source documents. 
-
+---
 ## 📦 Dependencies
 
 ### Backend (Python)
