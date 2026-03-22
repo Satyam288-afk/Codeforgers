@@ -254,6 +254,8 @@ adaptilearn/
 | Backend API | [Render](https://render.com) | `https://<your-render-url>.onrender.com` |
 | Frontend App | [Vercel](https://vercel.com) | `https://<your-vercel-url>.vercel.app` |
 
+> ⚡ **Note:** The backend runs on Render's free tier, which has a ~30s cold start after periods of inactivity. Once warmed up, all API responses are near-instant. The initial boot also pre-computes a full embedding tensor space via Google's API for the Semantic Router — this is by design for zero-latency inference at runtime.
+
 ---
 
 <div align="center">
