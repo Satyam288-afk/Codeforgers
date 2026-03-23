@@ -13,11 +13,11 @@
 
 ---
 
-## 🚀 The Problem
+## The Problem
 
 Modern enterprise onboarding is fundamentally broken. Employees are routinely forced through redundant, one-size-fits-all training modules that assume they know nothing—wasting countless hours of productivity. There is a total lack of precision in mapping an individual's **actual** existing skills against the **strict** requirements of their target job role.
 
-## 💡 The Solution: SkillForge
+## The Solution: SkillForge
 
 **SkillForge** mathematically eliminates redundant training. It is an intelligent, AI-driven **Learning Topology Engine** that:
 
@@ -29,7 +29,7 @@ Modern enterprise onboarding is fundamentally broken. Employees are routinely fo
 
 ---
 
-## 📐 High-Level Architecture
+##  High-Level Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
@@ -54,7 +54,7 @@ Modern enterprise onboarding is fundamentally broken. Employees are routinely fo
 
 ---
 
-## 🧠 Skill-Gap Analysis Logic — Deep Dive
+##  Skill-Gap Analysis Logic — Deep Dive
 
 ### Stage 1 — AI Skill Extraction (`core/extraction.py`)
 
@@ -81,8 +81,8 @@ Every AI-extracted skill passes through the **SemanticRouter** — a custom in-m
 
 3. **Firewall threshold** (`≥ 0.55`): If the best match falls **below** this threshold, the skill is **dropped entirely** — guaranteeing zero hallucinations. The system cannot invent training modules that don't exist in the curriculum.
 
-> *Example:* `"vanilla JS"` → routed to `"JavaScript"` (87.3% confidence) ✅  
-> *Example:* `"quantum knitting"` → **FIREWALL DROP** (best match 23.1%) 🔥
+> *Example:* `"vanilla JS"` → routed to `"JavaScript"` (87.3% confidence) 
+> *Example:* `"quantum knitting"` → **FIREWALL DROP** (best match 23.1%) 
 
 ### Stage 3 — Knowledge Graph Gap Computation (`core/graph_engine.py`)
 
@@ -105,7 +105,7 @@ For every required skill **not** found in the user's résumé, the engine genera
 
 This provides full **explainability** — every gap in the final roadmap is directly traceable back to the source documents. 
 ---
-## 📦 Dependencies
+##  Dependencies
 
 ### Backend (Python)
 
@@ -133,7 +133,7 @@ This provides full **explainability** — every gap in the final roadmap is dire
 
 ---
 
-## 🛠 Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 
@@ -194,7 +194,7 @@ The application will be accessible at `http://localhost:3000`.
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -226,7 +226,7 @@ The application will be accessible at `http://localhost:3000`.
 
 ---
 
-## 📂 Project Structure
+##   Project Structure
 
 ```
 adaptilearn/
@@ -247,7 +247,7 @@ adaptilearn/
 
 ---
 
-## 🚢 Deployment
+##   Deployment 
 
 | Service | Platform | URL |
 |---|---|---|
